@@ -14,7 +14,7 @@ import numpy
 
 def get_pipeline():
     features = fe.feature_extractor()
-    classifier = GradientBoostingClassifier(n_estimators=1536,
+    classifier = GradientBoostingClassifier(n_estimators=1024,
                                           random_state = 1,
                                           subsample = .8,
                                           min_samples_split=10,
@@ -58,7 +58,7 @@ def classify_catagory(train, test):
     print "TrainX size = ", str(trainX.shape)
     print "TestX size = ", str(testX.shape)
 
-    classifier = GradientBoostingClassifier(n_estimators=1536,
+    classifier = GradientBoostingClassifier(n_estimators=1024,
                                           random_state = 1,
                                           subsample = .8,
                                           min_samples_split=10,

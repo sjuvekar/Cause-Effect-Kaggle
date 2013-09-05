@@ -7,10 +7,14 @@
     "old_train_info_path": "CauseEffectPairs/Competition/CEdata_train_publicinfo.csv",
     "valid_pairs_path": "CauseEffectPairs/Competition/final/CEfinal_valid_pairs.csv",
     "valid_info_path": "CauseEffectPairs/Competition/final/CEfinal_valid_publicinfo.csv",
+    "test_pairs_path": "CauseEffectPairs/Competition/test/CEfinal_test_pairs.csv",
+    "test_info_path": "CauseEffectPairs/Competition/test/CEfinal_test_publicinfo.csv",
     "sup_prefix": "CauseEffectPairs/Competition/SUP",
     "model_path": "CauseEffectPairs/Models/basic_python_benchmark.pickle",
     "submission_path": "CauseEffectPairs/Submissions/basic_python_benchmark.csv",
+    "test_submission_path": "CauseEffectPairs/Submissions/test_benchmark.csv",
     "feature_path": "CauseEffectPairs/Data/features.csv",
     "feature_importance_path": "CauseEffectPairs/Data/feature_importance.csv",
-    "valid_feature_path": "CauseEffectPairs/Data/valid_features.csv"
+    "valid_feature_path": "CauseEffectPairs/Data/valid_features.csv",
+    "test_feature_path": "CauseEffectPairs/Data/test_features.csv"
 }
